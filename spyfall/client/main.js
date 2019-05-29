@@ -18,12 +18,12 @@ function initUserLanguage() {
 }
 
 function getUserLanguage() {
-  var language = Session.get("language");
+  var language = "th";
 
   if (language){
     return language;
   } else {
-    return "en";
+    return "th";
   }
 };
 
